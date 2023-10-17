@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Welcome to Firebase Hosting</title>
+  </head>
+  <body>
+  <div class="container">
+    <div class="header">
+      <p>Game Guides</p>
+      <nav>
+        <ul>
+          <li class="logout log-out">Logout</li>
+          <li class="log log-in">Login</li>
+          <li class="sign log-out">Sign up</li>
+          <li class="create log-in">Create guide</li>
+        </ul>
+      </nav>
+    </div>
+   <div class="background">
+    <div class="login">
+      <form id="login-form">
+        <label for="email"><span>Email</span></label>
+        <input type="email" name="email" />
+        <label for="password"><span>Password</span></label>
+        <input type="password" name="password" />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+   </div>
+   <div class="background">
+    <div class="Signup">
+      <form id="signup-form">
+        <label for="email"><span>Email</span></label>
+        <input type="email" name="email" />
+        <label for="password"><span>Password</span></label>
+        <input type="password" name="password" />
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+   </div>
+   <div class="background">
+    <div class="create-guide">
+      <form id="create-form">
+        <label for="title"><span>Title</span></label>
+        <input type="text" name="title" />
+        <label for="body"><span>body</span></label>
+        <input type="text" name="body" />
+        <button type="submit">create</button>
+      </form>
+    </div>
+   </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
